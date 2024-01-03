@@ -97,8 +97,7 @@ def old_id_to_new_id(id_mapping, input_folder_paths, output_folder_name):
     print("---------------change end---------------")
 
 
-# input_folder_paths = r"Z:\de-identification\Kakaomobility\round(20230417095611_autocardata_100)_time(1681703130_1681703230)\sensor\camera*\personIDs"
-input_folder_paths = r"Z:\de-identification\Kakaomobility\round(20230406103132_autocardata_100)_time(1680747183_1680747255)\sensor\camera*\personIDs"
+input_folder_paths = r"Z:\de-identification\Kakaomobility\round(20220906111759_autocardata_100)_time(1662435830_1662435858)\sensor\camera*\personIDs"
 output_folder_name = "personIDs_id_sort"
 
 ids = get_ids(input_folder_paths)
